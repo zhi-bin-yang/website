@@ -1,4 +1,21 @@
 baseURL: https://zhibinyang.com/
 languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+title: Zhibin Yang
+theme: PaperMod
+
+enableRobotsTXT: true
+
+params:
+  env: production
+
+  homeInfoParams:
+    Title: About Me
+    Content: CS @ Umich
+
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/zhi-bin-yang
+
+
+
+  
