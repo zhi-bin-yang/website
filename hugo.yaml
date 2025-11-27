@@ -13,6 +13,8 @@ params:
     Content: CS @ Umich
 
   socialIcons:
+    - name: email
+      url: mailto:contact@zhibinyang.com
     - name: GitHub
       url: https://github.com/zhi-bin-yang
 
