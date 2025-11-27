@@ -7,11 +7,15 @@ enableRobotsTXT: true
 
 params:
   env: production
+  DateFormat: 2006-01-02
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowBreadCrumbs: true
 
   homeInfoParams:
     Title: About Me
     Content: CS @ Umich
-
+    
   socialIcons:
     - name: signal
       url: https://signal.me/#eu/RXnCZA15NKgSTsYZKrAtXvOwiyymmbngjZHf2NlZ3hqXh7Z1JGNEkLP0JLg7v5lQ  
@@ -19,7 +23,6 @@ params:
       url: mailto:contact@zhibinyang.com
     - name: github
       url: https://github.com/zhi-bin-yang
-  
   
 caches:
   images:
